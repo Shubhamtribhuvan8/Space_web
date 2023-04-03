@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .icon {
+        background: linear-gradient(
+            119deg,
+            #75b8e6 0%,
+            #ce80e8 20%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 1) 75%,
+            rgba(1, 1, 1, 1) 100%
+        );
+    }
+    .key-card {
+        background: linear-gradient(
+            137deg,
+            rgba(49, 47, 57, 1) 0%,
+            rgba(49, 47, 57, 1) 20%,
+            rgba(30, 28, 40, 1) 70%,
+            rgba(30, 28, 40, 1) 100%
+        );
+    }
+    .slides-container {
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+        height: 217px;
+    }
+    .slides-container::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+}
